@@ -1,2 +1,1 @@
-# Myself
-About me
+https://sesehanglimbu.github.io/Myself/
