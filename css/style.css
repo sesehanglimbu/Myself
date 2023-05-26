@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #79edee; */
+  background-color: #e6fffd;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+
+
+
+
+}
+
+
+.head {
+
+  padding-bottom: 20px;
+  border-bottom: 3px solid rgb(91, 166, 233);
+  background-color: #aee2ff;
+  padding: 1% 7%;
+
+
+
+
+}
+
+.profile {
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  column-gap: 70px;
+  margin-left: 20px;
+
+}
+
+.img img {
+  width: 250px;
+  height: 250px;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.personName {
+  border-bottom: 3px solid rgb(102, 158, 226);
+  text-shadow: 2px 5px 4px #b6c6e8;
+
+}
+
+/* /////////////main-section///////  */
+
+.main-section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+  padding-bottom: 20px;
+
+
+}
+
+.left-section {
+  padding: 0 30px;
+  flex-basis: 50%;
+  align-self: flex-start;
+}
+
+.right-section {
+  flex-basis: 50%;
+  align-self: flex-start;
+  padding: 0 10px;
+}
+
+.about-me,
+.experience,
+.skills {
+  padding-bottom: 10px;
+  border-bottom: 4px solid rgb(102, 158, 226);
+
+}
+
+
+
+.language {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+
+}
+
+.language,
+label,
+meter {
+  width: 300px;
+  padding-left: 20px;
+}
+
+.skills,
+ul,
+li {
+  line-height: 10px;
+  font-size: 17px;
+
+}
+
+.Hobbies,
+ul,
+li {
+  line-height: 30px;
+  font-size: 17px;
+}
+
+.education-name {
+  font-size: 20px;
+  background-color: #dddddd;
+}
+
+
+table {
+  border-collapse: collapse;
+
+
+}
+
+th,
+tr,
+td {
+  padding: 8px 15px;
+  text-align: left;
+  border: 2px solid #ddd;
+}
+
+
+
+/*//////////// footer /////////// */
+
+footer {
+  background-color: #b9e9fc;
+  display: grid;
+  grid-template-columns: 450px 2fr 500px;
+  grid-gap: 10px;
+  grid-template: auto;
+  padding: 0 20px;
+
+
+
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
+
+.fa-facebook {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-youtube {
+  background: #ff5700;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 40px;
+  text-decoration: none;
+  margin: 5px 4px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+
+
+.favorite-song {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+
+
+}
